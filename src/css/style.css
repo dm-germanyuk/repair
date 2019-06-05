@@ -459,6 +459,9 @@ img {
 }
 
 @media (max-width: 768px) {
+  .portfolio {
+    background-image: none;
+  }
   .portfolio__title {
     font-size: 18px;
     line-height: 1.4;
