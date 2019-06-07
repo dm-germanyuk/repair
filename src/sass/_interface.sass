@@ -49,3 +49,19 @@ img
     &__left, &__right
         &:hover
             cursor: pointer
+
+a:active, a:focus
+    outline: none
+button:active, button:focus 
+    outline: none
+a:active, a:focus 
+    outline: none
+input, textarea 
+    outline: none
+input:active, textarea:active 
+    outline: none
+
+@media (min-width: 992px)
+    hover: none
+    ::before
+        hover: none
